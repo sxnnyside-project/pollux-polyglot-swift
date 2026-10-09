@@ -1,0 +1,14 @@
+# SwiftPM build artifacts
+.build/
+Packages/
+*.xcodeproj
+*.xcworkspace
+Package.resolved
+
+# OS and temporary files
+.DS_Store
+*.swp
+*.log
+
+# Native local libraries
+lib/

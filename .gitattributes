@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.swift text diff=swift eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+
+Package.resolved -diff
+*.dylib binary
+*.so binary
+*.dll binary
